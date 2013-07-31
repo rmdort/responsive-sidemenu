@@ -1,8 +1,8 @@
-## A responsive side menu for mobile devices
+# A responsive side menu for mobile devices
 
 A simple responsive side drawer style menu for mobile devices. No additonal styles, you are free to customize it for your project.
 
-### How to use
+## How to use
 
 1. Set the meta tag
 
@@ -68,11 +68,11 @@ A simple responsive side drawer style menu for mobile devices. No additonal styl
 4. Add 'click' Event Listener to the button
 
 		<script>
-	    
-	    document.querySelector('.js--open-menu')
-	      .addEventListener('click', function(e){
-	        document.body.classList.toggle('menu--opened');
-	        e.preventDefault();
-	    });
-	    
-	  </script>
+
+			document.querySelector('.js--open-menu')
+				.addEventListener('click', function(e){
+				  document.body.classList.toggle('menu--opened');
+				  e.preventDefault();
+			});
+
+		</script>
