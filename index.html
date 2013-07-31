@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Responsive Sidemenu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">        
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/sidemenu.css">
+</head>
+<body>
+  
+  <!-- Container -->
+  <div class="container">
+    
+    <!-- Open Menu Button -->
+    <button class="js--open-menu">Open Menu</button>
+    <!-- / Open Menu Button -->
+
+
+    <h1>Responsive Side Menu</h1>
+  
+    <!-- Navigation -->
+    <nav class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Scaffolding</a></li>
+          <li><a href="#">Base CSS</a></li>
+          <li><a href="#">Components</a></li>
+          <li><a href="#">JavaScript</a></li>
+        </ul>
+    </nav>
+    <!-- / Navigation -->
+
+    <h3>Resize the browser window and 'click' on 'Open Menu'</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellendus, atque, pariatur aperiam nihil obcaecati quasi omnis modi repellat placeat blanditiis mollitia rem labore delectus minus reiciendis fuga eius harum!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellendus, atque, pariatur aperiam nihil obcaecati quasi omnis modi repellat placeat blanditiis mollitia rem labore delectus minus reiciendis fuga eius harum!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellendus, atque, pariatur aperiam nihil obcaecati quasi omnis modi repellat placeat blanditiis mollitia rem labore delectus minus reiciendis fuga eius harum!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellendus, atque, pariatur aperiam nihil obcaecati quasi omnis modi repellat placeat blanditiis mollitia rem labore delectus minus reiciendis fuga eius harum!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellendus, atque, pariatur aperiam nihil obcaecati quasi omnis modi repellat placeat blanditiis mollitia rem labore delectus minus reiciendis fuga eius harum!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellendus, atque, pariatur aperiam nihil obcaecati quasi omnis modi repellat placeat blanditiis mollitia rem labore delectus minus reiciendis fuga eius harum!</p>
+
+  </div>
+  <!-- / Container -->
+
+    
+
+  <script>
+    
+    document.querySelector('.js--open-menu')
+      .addEventListener('click', function(e){
+        document.body.classList.toggle('menu--opened');
+        e.preventDefault();
+    });
+    
+  </script>
+</body>
+</html>
