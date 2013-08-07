@@ -4,7 +4,7 @@ A simple responsive side drawer style menu for mobile devices. No additonal styl
 
 ### Demo
 
-[![Screenshot](http://rmdort.github.io/responsive-sidemenu/screenshot.jpg)](http://rmdort.github.io/responsive-sidemenu/)
+[![Screenshot](http://rmdort.github.io/responsive-sidemenu/screenshot.png)](http://rmdort.github.io/responsive-sidemenu/)
 
 [http://rmdort.github.io/responsive-sidemenu/](http://rmdort.github.io/responsive-sidemenu/)
 
