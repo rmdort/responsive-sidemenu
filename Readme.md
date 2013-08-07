@@ -1,8 +1,14 @@
-# A responsive side menu for mobile devices
+## A responsive side menu for mobile devices
 
 A simple responsive side drawer style menu for mobile devices. No additonal styles, you are free to customize it for your project.
 
-## How to use
+### Demo
+
+[![Screenshot](http://rmdort.github.io/responsive-sidemenu/screenshot.jpg)](http://rmdort.github.io/responsive-sidemenu/)
+
+[http://rmdort.github.io/responsive-sidemenu/](http://rmdort.github.io/responsive-sidemenu/)
+
+### How to use
 
 1. Set the meta tag
 

@@ -14,17 +14,17 @@
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease;
 	-ms-transition: all 0.25s ease;
-	transition: all 0.25s ease 0s;
+	transition: all 0.25s ease;
 }
 
-.menu--opened .container{
+.menu__opened .container{
 	-webkit-transform: translate3d(70%, 0, 0);
 	-moz-transform: translate3d(70%, 0, 0);
 	-ms-transform: translate3d(70%, 0, 0);
 	transform: translate3d(70%, 0, 0);
 }
 
-.menu--opened{
+.menu__opened{
 	overflow-x: hidden;
 }
 
