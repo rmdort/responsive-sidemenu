@@ -1,31 +1,31 @@
 /* Sidemenu Styles */
 
-.menu{
+.menu {
   bottom: 0;
   left: -70%;
   position: absolute;
-  top: 0 ;
+  top: 0;
   width: 70%;
 }
 
 /* Toggled Menu */
 
-.container{
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	-ms-transition: all 0.25s ease;
-	transition: all 0.25s ease;
+.container {
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
-.menu__opened .container{
-	-webkit-transform: translate3d(70%, 0, 0);
-	-moz-transform: translate3d(70%, 0, 0);
-	-ms-transform: translate3d(70%, 0, 0);
-	transform: translate3d(70%, 0, 0);
+.menu__opened .container {
+  -webkit-transform: translate3d(70%, 0, 0);
+  -moz-transform: translate3d(70%, 0, 0);
+  -ms-transform: translate3d(70%, 0, 0);
+  transform: translate3d(70%, 0, 0);
 }
 
-.menu__opened{
-	overflow-x: hidden;
+.menu__opened {
+  overflow-x: hidden;
 }
 
 
